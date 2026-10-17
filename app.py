@@ -18,7 +18,7 @@ APP_TITLE = "LAKS"
 DB_PATH = os.getenv("QUIZ_DB_PATH", "quiz_app.db")
 ADMIN_USER = os.getenv("QUIZ_ADMIN_USER", "admin")
 ADMIN_PASSWORD = os.getenv("QUIZ_ADMIN_PASSWORD", "admin@123")
-APP_BASE_URL = os.getenv("QUIZ_BASE_URL", "http://192.168.0.2:8501").rstrip("/")
+APP_BASE_URL = os.getenv("QUIZ_BASE_URL", "https://rgbquiz-gf2druhbxpsqjv58dzvu2o.streamlit.app/").rstrip("/")
 
 st.set_page_config(page_title=APP_TITLE, page_icon="🎯", layout="wide", initial_sidebar_state="collapsed")
 
